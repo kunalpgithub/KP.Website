@@ -1,8 +1,12 @@
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification 
 for details on configuring this project to bundle and minify static web assets. */
+html {
+    height:100%;
+}
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    height:100%;
 }
 
 /* Wrapping element */
@@ -34,4 +38,35 @@ body {
     .carousel-caption {
         display: none;
     }
+}
+/*Add high resolution background image.*/
+.bg {
+    background-image:url('../images/DSCN0159.JPG');
+    height:45%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.bg p {
+    font-size:xx-large;
+    font-family:Calibri;
+    color:white;
+}
+
+.card-img-bg {
+    width: 200px;
+    height: 150px;
+    background-size:  contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width:100%;
+}
+.dotnet {
+    background-image:url("../images/logo-aspnetmvc.png");    
+}
+.mobile {
+    background-image: url("../images/mobileAppDev.jpg");
+}
+.frontend {
+    background-image: url("../images/rengular.png");
 }
